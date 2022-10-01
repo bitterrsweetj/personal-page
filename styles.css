@@ -10,9 +10,10 @@ body {
 }
 
 header,
+footer,
 section,
-footer {
-  max-width: 1200px;
+.quote {
+  width: 1028px;
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
   padding: 0 48px;
@@ -25,8 +26,10 @@ footer {
 .hero {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 54px;
   background-color: #1f2937;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 h1 {
@@ -37,16 +40,19 @@ h1 {
 
 p {
   font-size: 18px;
-  color: #e5e7eb;
-  margin: 8px 0;
+  color: #dddfe2;
+  padding: 5px 0;
   line-height:130%;
 }
 
+.info {
+  padding-bottom: 110px;
+}
 
 button {
   background-color:#3882f6;
   color: #fff;
-  padding: 12px 36px;
+  padding: 8px 36px;
   border-radius: 8px;
   border: none;
   font-size: 18px;
@@ -60,15 +66,13 @@ header {
   align-items: center;
   justify-content: space-between;
   flex-shrink:0;
+  padding-top:10px;
 }
 
 .header-logo {
   color: #f9faf8;
   font-size: 24px;
-}
-
-section {
-  height: 600px;
+  font-weight: 700;
 }
 
 h2 {
@@ -82,12 +86,12 @@ h2 {
 .grid {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 60px;
 }
 
 .grid-item {
   text-align: center;
-  width: 180px;
+  width: 170px;
 }
 
 .grid-item p {
@@ -95,9 +99,33 @@ h2 {
 }
 
 .grid-item img {
-  width: 180px;
-  height: 180px;
-  border-radius: 20px;
+  width: 170px;
+  height: 170px;
+  border-radius: 16px;
+}
+
+.quote {
+  padding: 120px 0;
+}
+
+.quote-bg {
+  background-color: #e5e7eb;
+}
+
+blockquote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+  width: 799px;
+  margin: auto;
+}
+
+figcaption {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: right;
+  margin-right:140px;
 }
 
 ul {
@@ -116,10 +144,41 @@ a {
 }
 
 img {
-  width:600px;
-  height: 350px;
+  width:440px;
+  height: 250px;
   object-fit:cover;
 }
+
+.call-to-action {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 0 100px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0 36px;
+  margin:100px 0;
+}
+
+.call-to-action button {
+  border: 2px solid #e5e7eb;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+}
+ 
+ /* make p padding-top lesser 
+ color brighter
+ footer*/
 
 
 
